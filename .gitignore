@@ -25,5 +25,5 @@ yarn-error.log*
 /studio/config/@sanity
 /studio/*
 /.vscode/*
-/.eslintcache/*
+.eslintcache/*
 
