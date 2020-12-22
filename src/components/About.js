@@ -28,7 +28,11 @@ export default function About() {
 
   return (
     <main className="relative">
-      <img src={pixels} alt="Pink Pixels" className="absolute w-full" />
+      <img
+        src={pixels}
+        alt="Pink Pixels"
+        className="object-covered h-50 fixed"
+      />
       <div className="p-10 lg:pt-48 container mx-auto relative">
         <section className="bg-pink-800 rounded-lg shadow-2xl lg:flex p-20">
           <img
