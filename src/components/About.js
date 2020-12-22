@@ -27,8 +27,8 @@ export default function About() {
   if (!author) return <div>Loading...</div>;
 
   return (
-    <main className="relative">
-      <img src={pixels} alt="Pink Pixels" className="object-covered h-50 " />
+    <main className="relative fixed">
+      <img src={pixels} alt="Pink Pixels" className="fixed w-full" />
       <div className="p-10 lg:pt-48 container mx-auto relative">
         <section className="bg-pink-800 rounded-lg shadow-2xl lg:flex p-20">
           <img
